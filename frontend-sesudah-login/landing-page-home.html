@@ -9,19 +9,25 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous" />
-
-    <title>Galeri Foto</title>
+    <style>
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+    <title>HOME</title>
 </head>
 
-<body class="h-100">
+<body>
 
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-light" style="background: #C2ADFF;">
         <div class="container">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="landing-page-home.html">
                 <div class="row">
-                    <div class="col-2"><img src="asset/logo-sd.png" alt=""></div>
-                    <div class="col-9">
+                    <div class="col-sm-2"><img src="/asset/logo-sd.png" alt=""></div>
+                    <div class="col-sm-9">
                         <div style="font-size: 30px;font-weight: bold;margin-top: -10px;">SD NEGERI NURUL SALAM <div
                                 style="font-size: 15px;text-align: center;">Cerdas,
                                 Kreatif, Tanggap dan Inovatif
@@ -30,38 +36,28 @@
                     </div>
                 </div>
             </a>
+            <button class="navbar-toggler float-right" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item ">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="/frontend-sesudah-login/landing-page-home.html">Home</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-expanded="false">
-                            Profile
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background: #C2ADFF;">
-                            <a class="dropdown-item" href="#">Sejarah</a>
-                            <a class="dropdown-item" href="#">Visi & Misi</a>
-                            <a class="dropdown-item" href="#">Tenaga Pendidik</a>
-                        </div>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/frontend-sesudah-login/persyaratan.html">Persyaratan</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Pengumuman</a>
+                        <a class="nav-link" href="/frontend-sesudah-login/pengumuman.html">Pengumuman</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-expanded="false">
-                            Gallery
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background: #C2ADFF;">
-                            <a class="dropdown-item" href="#">Foto</a>
-                            <a class="dropdown-item" href="#">Video</a>
-                        </div>
-                    </li>
+
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Kontak</a>
+                        <a class="nav-link" href="/frontend-sesudah-login/edit-profile.html">Edit Profile</a>
                     </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="#">PPDB Online</a>
                     </li>
@@ -72,27 +68,36 @@
     <!-- AKHIR NAVBAR -->
 
 
-    <div style="background: #B49AFF;height: 620px;">
+    <div style="background: #ffff;">
         <div class="container">
             <!-- AWAL CONTAINER -->
             <br>
-            <!-- GALERI VIDEO -->
-            <div style="font-size: 26px;"><b>GALERI VIDEO</b></div>
-            <div class="dropdown-divider" style="border: 3px solid rgba(0, 0, 0, 0.2);"></div>
             <br>
-            <!-- isi content -->
+            <br>
+            <!-- AWAL HOME -->
             <div class="row">
-                NANTI DI BIKIN EMBED DARI YOUTUBE AJAH
-
+                <div class="col-6">
+                    <p style="text-align: center;"><b style="font-size: 30px;">
+                            Hai Andri Agustiana <br>
+                            Selamat Datang Di (PPDB) Online <br>
+                            SD Negeri Nurul Salam <br>
+                            2021/2022 <br>
+                        </b>
+                        <br>
+                        <button class="btn btn-primary w-50 text-dark" style="background: #288BFF;
+                        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                        border-radius: 5px;">ALUR PENDAFATARAN</button>
+                    </p>
+                </div>
+                <div class="col-6">
+                    <img src="/asset/frontend-sesudah-login-home1.png" style="margin-top: -20px;" alt="">
+                </div>
             </div>
-            <!-- akhir isi content -->
-
-
-            <!-- AKHIR GALERI VIDEO -->
+            <!-- AKHIR HOME -->
 
 
             <!-- AKHIR CONTAINER -->
-            <br>
+            <br><br><br><br>
             <br>
         </div>
     </div>
