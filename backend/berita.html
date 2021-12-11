@@ -166,12 +166,12 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <div class="container-fluid">
           <div class="row mb-2">
             <div class="col-sm-6">
-              <h1 class="m-0">Dashboard</h1>
+              <h1 class="m-0">Berita</h1>
             </div><!-- /.col -->
             <div class="col-sm-6">
               <ol class="breadcrumb float-sm-right">
-                <!-- <li class="breadcrumb-item"><a href="#">Home</a></li> -->
-                <li class="breadcrumb-item active">Dashboard</li>
+                <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
+                <li class="breadcrumb-item active">Berita</li>
               </ol>
             </div><!-- /.col -->
           </div><!-- /.row -->
@@ -183,73 +183,64 @@ scratch. This page gets rid of all links and provides the needed markup only.
       <div class="content">
         <div class="container-fluid">
 
-
           <div class="row">
-            <div class="col-lg-3 col-6">
-              <!-- small box -->
-              <div class="small-box bg-info">
-                <div class="inner">
-                  <h3>150</h3>
+            <div class="col-12">
+              <div class="card">
+                <div class="card-header">
+                  <button class="text-white btn btn-sm btn-primary tambah">
+                    <i class="fas fa-plus"></i> Tambah Data</button>
 
-                  <p>Peserta Didik</p>
+
                 </div>
-                <div class="icon">
-                  <i class="ion ion-bag"></i>
+                <!-- /.card-header -->
+                <div class="card-body table-responsive p-0">
+                  <table class="table table-hover text-nowrap">
+                    <thead>
+                      <tr>
+                        <th>No</th>
+                        <th>Judul</th>
+                        <th>Tanggal Posting</th>
+                        <th>Keterangan</th>
+                        <th>Action</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>Pembelajaran Siswa</td>
+                        <td>2021-12-12</td>
+                        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum aliquam, nulla eu, amet,
+                          aliquam placerat cursus. Cras in.</td>
+                        <td>
+                          <button class="text-white btn btn-sm btn-success edit">
+                            <i class="far fa-edit"></i> Edit</button>
+                          <button class="text-white btn btn-sm btn-danger hapus">
+                            <i class="far fa-trash-alt"></i> Hapus</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>2</td>
+                        <td>Pembelajaran Siswa Dengan Guruu</td>
+                        <td>2021-12-12</td>
+                        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum aliquam, nulla eu, amet,
+                          aliquam placerat cursus. Cras in.</td>
+                        <td>
+                          <button class="text-white btn btn-sm btn-success edit">
+                            <i class="far fa-edit"></i> Edit</button>
+                          <button class="text-white btn btn-sm btn-danger hapus">
+                            <i class="far fa-trash-alt"></i> Hapus</button>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
-                <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                <!-- /.card-body -->
               </div>
+              <!-- /.card -->
             </div>
-
-            <!-- ./col -->
-            <div class="col-lg-3 col-6">
-              <!-- small box -->
-              <div class="small-box bg-info">
-                <div class="inner">
-                  <h3>150</h3>
-
-                  <p>Guru</p>
-                </div>
-                <div class="icon">
-                  <i class="ion ion-bag"></i>
-                </div>
-                <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-              </div>
-            </div>
-
-
-            <!-- ./col -->
-            <div class="col-lg-3 col-6">
-              <!-- small box -->
-              <div class="small-box bg-warning">
-                <div class="inner">
-                  <h3>44</h3>
-
-                  <p>Galleri Foto</p>
-                </div>
-                <div class="icon">
-                  <i class="ion ion-person-add"></i>
-                </div>
-                <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-              </div>
-            </div>
-            <!-- ./col -->
-            <div class="col-lg-3 col-6">
-              <!-- small box -->
-              <div class="small-box bg-danger">
-                <div class="inner">
-                  <h3>65</h3>
-
-                  <p>Galleri Foto</p>
-                </div>
-                <div class="icon">
-                  <i class="ion ion-pie-graph"></i>
-                </div>
-                <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-              </div>
-            </div>
-            <!-- ./col -->
           </div>
-          <!-- /.row -->
+
+
 
 
         </div><!-- /.container-fluid -->
